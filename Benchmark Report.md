@@ -119,8 +119,25 @@ The performance of advanced architectures such as Multi-step and RAG is highly d
 | Scalability | Low   | Medium     | High   |
 
 ---
+## 7. Visualization
 
-## 7. Conclusion
+### F1 Score Comparison
+
+![F1 Score](results/f1_comparison.png)
+
+### Exact Match Comparison
+
+![Exact Match](results/em_comparison.png)
+
+### Insight from Visualization
+
+The graphs show that the Basic (single-step) agent achieves the highest performance in both F1 score and Exact Match.
+
+The Multi-step agent performs moderately, while the RAG-based agent shows lower performance due to limitations in the retrieval mechanism.
+
+This highlights that while advanced architectures improve scalability, they may reduce accuracy if retrieval or context handling is not optimal.
+
+## 8. Conclusion
 
 * Single-step QA is best for structured datasets like SQuAD.
 * RAG is more suitable for large-scale real-world applications.
