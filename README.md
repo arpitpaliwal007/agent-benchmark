@@ -10,6 +10,30 @@ This project benchmarks different AI agent architectures on a QA task using SQuA
 * Multi-step
 * RAG
 
+## Dataset Description
+
+* **Source**: SQuAD (Stanford Question Answering Dataset)
+* **Type**: Extractive Question Answering
+* **Size Used**: 1000 samples (validation split)
+
+### Data Format
+
+Each sample contains:
+
+* Context (paragraph)
+* Question
+* Answer (text span)
+
+### Preprocessing
+
+* Selected first 1000 validation samples
+* Extracted:
+
+  * context
+  * question
+  * first ground truth answer
+* No additional cleaning applied
+
 ## Metrics
 
 * Exact Match
