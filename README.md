@@ -45,8 +45,6 @@ Each sample contains:
 * Multi-step: EM 60.8 | F1 70.18
 * RAG: EM 50.9 | F1 59.36
 
-### Run
-
 ## Setup Instructions
 
 1. Clone repository:
