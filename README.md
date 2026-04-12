@@ -45,8 +45,26 @@ Each sample contains:
 * Multi-step: EM 60.8 | F1 70.18
 * RAG: EM 50.9 | F1 59.36
 
-## Run
+### Run
 
-pip install -r requirements.txt
-python src/run_architecture.py
-python evaluation/evaluate_architecture.py
+## Setup Instructions
+
+1. Clone repository:
+   git clone https://github.com/arpitpaliwal007/agent-benchmark
+
+2. Navigate to folder:
+   cd agent-benchmark
+
+3. Create virtual environment:
+   python -m venv venv
+   venv\Scripts\activate
+
+4. Install dependencies:
+   pip install -r requirements.txt
+
+5. Run benchmark:
+   python src/run_architecture.py
+
+6. Run evaluation:
+   python evaluation/evaluate_architecture.py
+
