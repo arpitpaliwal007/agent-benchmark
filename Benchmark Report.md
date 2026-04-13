@@ -76,31 +76,6 @@
 
 ---
 
-### 3. Failure Modes
-
-#### Basic Agent
-
-* Fails when context is too long or contains multiple similar answers
-* Struggles with ambiguous questions
-
-#### Multi-step Agent
-
-* Answer split across multiple chunks
-* Important context removed during chunking
-* Incorrect chunk selected as best
-
-#### RAG Agent
-
-* Relevant information not retrieved
-* TF-IDF selects wrong chunk due to keyword mismatch
-* Semantic similarity not captured
-
----
-
-## Key Insight
-
-The performance of advanced architectures such as Multi-step and RAG is highly dependent on how context is processed and retrieved. While these methods improve scalability, they may reduce accuracy if critical information is lost or not retrieved correctly.
-
 ## 5. Insights
 
 * The basic agent performs best due to full context availability.
