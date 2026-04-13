@@ -47,21 +47,64 @@ Each sample contains:
 
 ## Setup Instructions
 
-1. Clone repository:
-   git clone https://github.com/arpitpaliwal007/agent-benchmark
+### 1. Clone repository
 
-2. Navigate to folder:
-   cd agent-benchmark
+git clone https://github.com/arpitpaliwal007/agent-benchmark
 
-3. Create virtual environment:
-   venv\Scripts\activate
+### 2. Navigate to project folder
 
-4. Install dependencies:
-   pip install -r requirements.txt
+cd agent-benchmark
 
-5. Run benchmark:
-   python src/run_architecture.py
+### 3. Create and activate virtual environment
 
-6. Run evaluation:
-   python evaluation/evaluate_architecture.py
+python -m venv venv
+venv\Scripts\activate
+
+### 4. Install dependencies
+
+pip install -r requirements.txt
+
+---
+
+## Running the Benchmark
+
+### Architecture Comparison (Basic vs Multi-step)
+
+python src/run_architecture.py
+
+---
+
+### RAG Benchmark (Retrieval-based Agent)
+
+python src/run_rag.py
+
+---
+
+## Evaluation
+
+### Evaluate Architecture Results
+
+python evaluation/evaluate_architecture.py
+
+### Evaluate RAG Results
+
+python evaluation/evaluate_rag.py
+
+---
+
+## Visualization
+
+### Generate performance plots
+
+python evaluation/plot_results.py
+
+This will generate:
+
+* F1 score comparison graph
+* Exact Match comparison graph
+
+Saved in:
+results/f1_comparison.png
+results/em_comparison.png
+
 
