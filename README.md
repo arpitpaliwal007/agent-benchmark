@@ -54,7 +54,6 @@ Each sample contains:
    cd agent-benchmark
 
 3. Create virtual environment:
-   python -m venv venv
    venv\Scripts\activate
 
 4. Install dependencies:
