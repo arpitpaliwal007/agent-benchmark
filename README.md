@@ -106,4 +106,14 @@ Saved in:
 results/f1_comparison.png
 results/em_comparison.png
 
+## Demo Video
+
+[Watch Demo Video](https://drive.google.com/drive/folders/1_oZrXIsj09XQLk50CrmOUlPy36mK95rp?usp=drive_link)
+
+This video demonstrates:
+
+Running the benchmark pipeline
+Evaluating model performance
+Comparing different agent architectures
+Visualization of results
 
